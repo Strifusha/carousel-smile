@@ -25,7 +25,7 @@ function moveSlide(moveTo) {
 
      if(right == '0') return sliderWrap.style.right = right + 945 + "px";
 
-     else if(right == '945' && moveTo === false) return sliderWrap.style.right = right + -810 + "px";
+     if(right == '945' && moveTo === false) return sliderWrap.style.right = right + -810 + "px";
     
     sliderWrap.style.right = right + pos + "px";
 }
