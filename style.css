@@ -1,0 +1,13 @@
+ul.images {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+}
+
+.gallery {
+    max-width: 400px;
+    background: #ccc;
+    overflow: hidden;
+}
